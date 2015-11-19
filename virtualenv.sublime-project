@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/Phoenix/Desktop/PyTutorial"
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Virtualenv Python",
+			"cmd": ["source", "/Users/Phoenix/Desktop/PyTutorial/venv/bin/activate"],
+			"working_dir": "/Users/Phoenix/Desktop/PyTutorial",
+			"env": {
+				"PYTHONPATH": "/Users/Phoenix/Desktop/PyTutorial/venv/bin/python:/Users/Phoenix/Desktop/PyTutorial/venv/lib/python2.7/site-packages"
+			},
+			"cmd": ["python", "$file"],
+			"selector": "source.python"
+		}
+	]
+}
