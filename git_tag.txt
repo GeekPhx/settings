@@ -1,0 +1,6 @@
+git log --oneline
+
+37d31b6 A Translater via YouDao dictionary api.
+399ab40 Naive WeChat with Python
+
+git tag -a dicter -m 'dicter via youdao api' 37d31b6
